@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cv - Nathalie Carrasco</title>
+  </head>
+  <body>
+    <!--Foto , descripcion , selector de habilidad_blanda ,hobbyes , habilidades tecnicas -->
+    <div style="text-align: center">
+<form action="cv" method="">
+      <h1>Curriculum Vitae</h1>
+      <img src="cvfoto.jfif" alt="fotocvnathalie" width="150" />
+
+      <h3>Nathalie carrasco</h3>
+      <p>
+        Soy una persona optimista y resiliente me gusta desafiarme y aprender
+        todo lo que me pueda sumar estoy comenzando en la programacion , me
+        considero bastante intuitiva , ademas me gusta , disfruto y aprendo
+        mucho del trabaj colaborativo y de equipos espero poder seguir creciendo
+        en esta area y sumando nuevos desafios y oportunidades
+      </p>
+
+      <select name="habilidad_blanda" id="hab_bl">
+        <option value="0">
+          Selecciona la que consideras mi mejor habilidad
+        </option>
+        <option value="resiliencia">Resiliencia</option>
+        <option value="trabajoEquipo">Trabajo de equipo</option>
+        <option value="persistencia">Persistencia</option>
+      </select>
+
+      <h4>Hobbies</h4>
+      <ul >
+        <li>me gusta mucho leer dramas y cuentos de fantasia</li>
+        <li>disfruto mucho salir a caminar al cerro</li>
+        <li>me gusta ver series de un fin de semana</li>
+        <li>soy muy curiosa</li>
+      </ul>
+
+      <h4>Habilidades tecnicas Trabajadas en generation</h4>
+      <label for="java">Java</label>
+      <input type="checkbox" id="java" name="hab_tec" value="1" />
+      <label for="spring">Spring</label>
+      <input type="checkbox" id="spring" name="hab_tec" value="2" />
+      <label for="sql">MySql</label>
+      <input type="checkbox" id="sql" name="hab_tec" value="3" />
+      <label for="react">React</label>
+      <input type="checkbox" id="react" name="hab_tec" value="4" />
+      <label for="css">CSS</label>
+      <input type="checkbox" id="css" name="hab_tec" value="5" />
+      <label for="html">HTML</label>
+      <input type="checkbox" id="html" name="hab_tec" value="6" />
+      <label for="javascript">javascript</label>
+      <input type="checkbox" id="javascript" name="hab_tec" value="7" />
+      <br /><hr>
+      <input type="submit" value="enviar" />
+    </form>
+    </div>
+  </body>
+</html>
