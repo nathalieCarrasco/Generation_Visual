@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>estilos CSS</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+      /* 3 formas de asignar estilos*/
+      /*1 . a trevez del elemento*/
+      p{
+        color:rgb(255, 255, 255);
+        background-color:blueviolet
+      }
+      div{
+        background-color: darkgrey;
+        width: 200px;
+        height: 200px;
+      }
+      /*2- a travez de clases */
+      .parr{
+        color: red;
+      }
+      /*3 a trevez de id (identificador unico NO se repite)*/
+      #parrafo{
+        color: darkorange;
+        background-color: blanchedalmond;
+      }
+      #padre{
+        background-color: aquamarine;
+        width: 400px;
+        height: 400px;
+     
+      }
+      #hijo{
+        background-color: rgb(239, 142, 22);
+        width: 40px;
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>parrafo 1</p>
+      <p class="parr">parrafo 2</p>
+      <p class="parr">parrafo 3</p>
+      <p id="parrafo" class="parr">parrafo 4</p>
+    </div>
+    <br>
+    <h2>Margin & Padding</h2>
+    <div id="padre">
+        <div id="hijo">
+
+        </div>
+    </div>
+  </body>
+</html>
